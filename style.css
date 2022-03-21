@@ -1,0 +1,39 @@
+body{
+  background-color: rgb(86, 199, 199);
+  font-family: 'Orbitron', sans-serif;
+}
+
+.header{
+    background-color: white;
+}
+
+button{
+    background-color: aquamarine;
+    border-radius: 30%;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 25px;
+    font-weight:bold;
+}
+
+.webcam{
+    background: rgb(85, 187, 182);
+    padding: 10px;
+    margin-top: 15px;
+    border: 3px solid rgba(255, 255, 255, 0);
+}
+
+#camera{
+    border: 2px solid rgb(73, 97, 107);
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 20px white;
+}
+
+#result{
+    border: 2px solid rgb(73, 97, 107);
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 20px white;
+}

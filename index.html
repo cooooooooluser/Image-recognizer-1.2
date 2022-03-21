@@ -1,0 +1,62 @@
+
+<html>
+  <head>
+    <title>MobileNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <center>
+      <div class="col-xs-12 header">
+      <h1> Image Identification App <span> <img width="75" src="logo.gif"> </span> </h1>
+           <p> Not 100% accurate </p>
+          </div>
+
+
+           <div class="col-sm-6 col-xs-12 webcam">
+            <h3> Webcam view</h3>
+            <div id="camera"> </div>
+            <button onclick="click()"> Capture Image </button>   
+          </div>
+ 
+
+          <div class="col-sm-6 col-xs-12 webcam">
+            <h3> Snapshot</h3>
+            <div id="Result"> </div>
+            <button onclick="final()"> Identification </button>   
+          </div>
+    </center>
+   
+
+
+    <div> 
+      <img width="50" src="bulb.gif">
+      <span id="output"> </span>
+    </div>
+
+    
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
