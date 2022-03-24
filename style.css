@@ -37,3 +37,19 @@ button{
     height: 300px;
     box-shadow: 5px 5px 20px white;
 }
+
+#footer{
+    color: black;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    background-color: rgb(110, 145, 145);
+    width: 101%;
+    line-height: 3;
+}
+
+#id h4{
+    background-color: aquamarine;
+    padding: 4px;
+    border-radius: 100px;
+}
